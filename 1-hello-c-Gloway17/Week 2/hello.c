@@ -1,6 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	printf("Hello World!~");
+	int age = 26;
+	char grade = 'A';
+	char name[] = "Dohwan";
+
+	printf("Hello World!~\n");
+	printf("My name is %s.\n", name);
+	printf("I'm %d years old.\n", age);
+	printf("I want a %c grade.\n", grade);
 	return 0;
 }
